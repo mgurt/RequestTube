@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+    
+    <!-- IMATGE -->
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:orientation="vertical">
+        
+        <ImageView 
+            android:id="@+id/imgVideo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:contentDescription="@string/app_name"/>
+        
+    </LinearLayout>   
+    
+    <!-- DADES VIDEO -->
+  	<LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+        android:paddingLeft="8sp"
+        android:orientation="vertical">
+        
+        <!-- TÍTOL DEL VIDEO -->
+        <TextView 
+            android:id="@+id/tvTitolVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textColor="#3CC0FA"/>
+        
+        <!-- DESCRIPCIÓ DEL VIDEO -->
+        <TextView 
+            android:id="@+id/tvDescripcioVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd"/>
+        
+        <!-- DATA I HORA DE PUBLICACIÓ DEL VIDEO -->
+        <TextView 
+            android:id="@+id/tvPublicacioVideo"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:paddingTop="8sp"
+        	android:gravity="center_horizontal"
+        	android:textStyle="bold"
+        	android:layout_gravity="center_horizontal"/>
+        
+        <!-- ID DEL VIDEO -->
+        <TextView 
+            android:id="@+id/tvIdVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        
+        <!-- CATEGORIA DEL VIDEO -->
+        <TextView 
+            android:id="@+id/tvCategoriaVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        
+        <!-- URL DEL LA IMATGE DEL VIDEO -->
+        <TextView 
+            android:id="@+id/tvThumbnailVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        
+    </LinearLayout> 
+    
+
+</LinearLayout>

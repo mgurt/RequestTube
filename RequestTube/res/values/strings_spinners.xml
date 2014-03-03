@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- date – Resources are sorted in reverse chronological order based on the date they were created.
+    rating – Resources are sorted from highest to lowest rating.
+    relevance – Resources are sorted based on their relevance to the search query. This is the default value for this parameter.
+    title – Resources are sorted alphabetically by title.
+    videoCount – Channels are sorted in descending order of their number of uploaded videos.
+    viewCount – Resources are sorted from highest to lowest number of views.  -->
+    
+    <string-array name="orderBy">
+        <item name="date">Data creació</item>
+        <item name="viewCount">Reproduccions</item>
+        <item name="relevance">Rellevància Youtube</item>
+        <item name="rating">Votació usuaris</item>
+    </string-array>
+    
+    
+    <!-- The type parameter restricts a search query to only retrieve a particular type of resource. The value is a comma-separated list of resource types. The default value is video,channel,playlist.
+
+	Acceptable values are:
+	
+	    channel
+	    playlist
+	    video  -->
+    
+    <string-array name="tipusCerca">
+        <item name="playlist">Llistes de reproducció</item>
+        <item name="channel">Canals</item>
+        <item name="video">Videos</item>
+    </string-array>
+    
+    <!-- CATEGORIES DELS VÍDEOS -->
+    <string-array name="categoryId">
+        <item name="Qualsevol">Qualsevol</item>
+        <item name="Animació">Animació</item>
+        <item name="Automocio">Automoció</item>
+        <item name="Musica">Música</item>
+        <item name="Animals i Mascotes">Animals i Mascotes</item>
+        <item name="Esports">Esports</item>
+        <item name="Viatges">Viatges</item>
+        <item name="Jocs">Jocs</item>
+        <item name="Comedia">Comèdia</item>
+        <item name="Entreteniment">Entreteniment</item>
+        <item name="How to - Com fer-ho">How to - Com fer-ho</item>
+        <item name="Educacio">Educació</item>
+        <item name="Ciencia i Tecnologia">Ciència i tecnologia</item>
+        <item name="Pel·licules">Pel·lícules</item>
+        <item name="Comedia">Comèdia</item>
+        <item name="Ciencia Ficcio">Ciència Ficció</item>
+    </string-array>
+    
+    
+    
+</resources>

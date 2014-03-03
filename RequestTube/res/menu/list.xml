@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/preferits"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/mostrar_preferits"
+        android:title="@string/prefered_menu_item"/>
+
+</menu>
